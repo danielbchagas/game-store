@@ -5,7 +5,7 @@ namespace GameStore.Catalog.Configurations
 {
     public static class EntityFrameworkConfiguration
     {
-        public static IServiceCollection Configure(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection ConfigureEntityFramework(this IServiceCollection services, IConfiguration configuration)
         {
             var connectionString = configuration.GetConnectionString("DefaultConnection");
 

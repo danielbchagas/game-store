@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace GameStore.Catalog.Interfaces
+namespace GameStore.Catalog.Interfaces.Actions
 {
     public interface IGet<Entity> where Entity : class
     {

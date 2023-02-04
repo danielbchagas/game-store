@@ -16,7 +16,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.Configure(_configuration);
+builder.Services.ConfigureEntityFramework(_configuration);
+builder.Services.ConfigureDependencyInjection();
 
 var app = builder.Build();
 

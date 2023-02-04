@@ -1,12 +1,12 @@
 ﻿using GameStore.Catalog.Contexts;
-using GameStore.Catalog.Interfaces;
+using GameStore.Catalog.Interfaces.Repositories;
 using GameStore.Catalog.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
 namespace GameStore.Catalog.Repositories
 {
-    public class ProductRepository : IGet<Product>
+    public class ProductRepository : IProductRepository
     {
         private readonly ApplicationContext _context;
 
