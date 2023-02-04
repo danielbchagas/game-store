@@ -2,8 +2,6 @@
 using GameStore.Catalog.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Resources;
-using static System.Net.Mime.MediaTypeNames;
-using System.Xml.Linq;
 
 namespace GameStore.Catalog.Contexts
 {
