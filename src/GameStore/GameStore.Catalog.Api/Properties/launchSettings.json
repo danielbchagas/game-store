@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "GameStore.Catalog": {
+    "Program": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",

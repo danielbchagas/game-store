@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameStore.Customer", "GameStore.Customer\GameStore.Customer.csproj", "{AA4EB498-3A81-4DC0-9CD1-85ACC88FA53F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameStore.Customer.Api", "GameStore.Customer.Api\GameStore.Customer.Api.csproj", "{AA4EB498-3A81-4DC0-9CD1-85ACC88FA53F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStore.Identity", "GameStore.Identity\GameStore.Identity.csproj", "{310A5022-DDAB-4E5C-818E-59D529085A07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameStore.Identity.Api", "GameStore.Identity.Api\GameStore.Identity.Api.csproj", "{310A5022-DDAB-4E5C-818E-59D529085A07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStore.Basket", "GameStore.Basket\GameStore.Basket.csproj", "{7E1CF47B-E78B-4B84-B0C9-C5769503F00E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameStore.Basket.Api", "GameStore.Basket.Api\GameStore.Basket.Api.csproj", "{7E1CF47B-E78B-4B84-B0C9-C5769503F00E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStore.Order", "GameStore.Order\GameStore.Order.csproj", "{9A2BBFE1-C48D-487C-A752-5A123E6C834C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameStore.Order.Api", "GameStore.Order.Api\GameStore.Order.Api.csproj", "{9A2BBFE1-C48D-487C-A752-5A123E6C834C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStore.Catalog", "GameStore.Catalog\GameStore.Catalog.csproj", "{AE624180-C6FE-4400-963B-14ACC006BE18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameStore.Catalog.Api", "GameStore.Catalog.Api\GameStore.Catalog.Api.csproj", "{AE624180-C6FE-4400-963B-14ACC006BE18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

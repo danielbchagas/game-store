@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GameStore.Catalog {
+namespace GameStore.Catalog.Api {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace GameStore.Catalog {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("GameStore.Catalog.ProductResource", typeof(ProductResource).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("GameStore.Catalog.Api.ProductResource", typeof(ProductResource).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -57,6 +57,42 @@ namespace GameStore.Catalog {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Outnumbered and outgunned, but not outmatched.Call of Duty®: Ghosts is an extraordinary step forward for one of the largest entertainment franchises of all-time. This new chapter in the Call of Duty® franchise features a new dynamic where players are on the side of a crippled nation fighting.
+        /// </summary>
+        public static string Call_of_Duty__Ghosts___About {
+            get {
+                return ResourceManager.GetString("Call of Duty: Ghosts - About", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to /9j/4AAQSkZJRgABAQIAHAAcAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCADXAcwDAREAAhEBAxEB/8QAHgAAAQQDAQEBAAAAAAAAAAAABAMFBgcBAggJAAr/xABUEAABAgQEBAQDBgMEBAgNBQABAgMABAURBhIhMQcTQVEIImFxFDKBCUKRobHBFSNSFmJy0RgzguEXJDQ2Q6K08RklNThTc3WDkrKzwvBGY6TD0v/EABoBAAMBAQEBAAAAAAAAAAAAAAECAwAEBQb/xAAyEQACAgICAQQCAQMDAgcAAAAAAQIRAyESMUETIjJRBGFxFCMzQoGhsdFSgpHB4fDx/9oADAMBAAIR [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string Call_of_Duty__Ghosts___Image {
+            get {
+                return ResourceManager.GetString("Call of Duty: Ghosts - Image", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Grand Theft Auto V for PC offers players the option to explore the award-winning world of Los Santos and Blaine County in resolutions of up to 4k and beyond, as well as the chance to experience the game running at 60 frames per second..
+        /// </summary>
+        public static string Grand_Theft_Auto_V___About {
+            get {
+                return ResourceManager.GetString("Grand Theft Auto V - About", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to /9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCADXAcwDAREAAhEBAxEB/8QAHgAAAgIDAQEBAQAAAAAAAAAABgcFCAAECQMCAQr/xABmEAABAwMDAgMFAwUICg0HCgcBAgMEBQYRAAcSITEIE0EJFCJRYRUycRYjQoGRJDNSYqGxtME1OENyc3aCstHSFxg0NzlUdXeSlLXC4SUmNlN0s/BEVmNmoqTD0+PxGSdVV4OT1P/EABwBAAEFAQEBAAAAAAAAAAAAAAACAwQFBgEHCP/EAEMRAAEDAgMFBQcCBAMIAwEBAAEAAgMEERIhMQVBUWFxEyKBkaEU [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string Grand_Theft_Auto_V___Image {
+            get {
+                return ResourceManager.GetString("Grand Theft Auto V - Image", resourceCulture);
             }
         }
         

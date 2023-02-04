@@ -1,6 +1,9 @@
-﻿using GameStore.Catalog.Models;
+﻿using GameStore.Catalog.Api;
+using GameStore.Catalog.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Resources;
+using static System.Net.Mime.MediaTypeNames;
+using System.Xml.Linq;
 
 namespace GameStore.Catalog.Contexts
 {
@@ -55,7 +58,7 @@ namespace GameStore.Catalog.Contexts
                 Name = "Resident Evil 2 Remake",
                 About = rm.GetString("Resident Evil 2 Remake - About") ?? string.Empty,
                 Category = Category.Horror,
-                Price = 250,
+                Price = 170,
                 Image = rm.GetString("Resident Evil 2 Remake - Image") ?? string.Empty,
             }, new Product
             {
@@ -71,8 +74,24 @@ namespace GameStore.Catalog.Contexts
                 Name = "Resident Evil 4 Remake",
                 About = rm.GetString("Resident Evil 4 Remake - About") ?? string.Empty,
                 Category = Category.Horror,
-                Price = 250,
+                Price = 235,
                 Image = rm.GetString("Resident Evil 4 Remake - Image") ?? string.Empty,
+            }, new Product
+            {
+                Id = Guid.NewGuid(),
+                Name = "Grand Theft Auto V",
+                About = rm.GetString("Grand Theft Auto V - About") ?? string.Empty,
+                Category = Category.Action,
+                Price = 210,
+                Image = rm.GetString("Grand Theft Auto V - Image") ?? string.Empty,
+            }, new Product
+            {
+                Id = Guid.NewGuid(),
+                Name = "Call of Duty: Ghosts",
+                About = rm.GetString("Call of Duty: Ghosts - About") ?? string.Empty,
+                Category = Category.Action,
+                Price = 150,
+                Image = rm.GetString("Call of Duty: Ghosts - Image") ?? string.Empty,
             });
         }
     }
