@@ -2,8 +2,8 @@
 
 namespace GameStore.Catalog.Api.Domain.Interfaces.Actions
 {
-    public interface IGet<T> where T : Entity
+    public interface IGetAll<T> where T : Entity
     {
-        Task<T> Get(Guid id);
+        Task<IEnumerable<T>> Get();
     }
 }

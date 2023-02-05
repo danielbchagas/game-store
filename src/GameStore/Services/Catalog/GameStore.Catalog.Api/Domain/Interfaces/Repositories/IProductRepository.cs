@@ -3,7 +3,7 @@ using GameStore.Catalog.Api.Domain.Models;
 
 namespace GameStore.Catalog.Api.Domain.Interfaces.Repositories
 {
-    public interface IProductRepository : IGet<Product>
+    public interface IProductRepository : IGet<Product>, IGetAll<Product>, IGetAllFilter<Product>
     {
     }
 }

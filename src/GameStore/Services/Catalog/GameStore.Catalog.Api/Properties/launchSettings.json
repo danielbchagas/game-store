@@ -1,7 +1,7 @@
 {
   "profiles": {
     "Program": {
-      "commandName": "GameStore",
+      "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",
       "environmentVariables": {
